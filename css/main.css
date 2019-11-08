@@ -142,7 +142,7 @@ text-transform: uppercase;
 .hero h2 {
     color: #faa541;
 }
-.hero h1 h2 {
+.hero h1 , hero h2 {
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
@@ -151,9 +151,9 @@ text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px ;
 }
-.banner{
+.banner {
     margin: 55px 15px;
     width: 100%;
     border-top: 1 solid #a0a0a0;
