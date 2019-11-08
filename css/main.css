@@ -79,7 +79,7 @@ font-size: 16px;
     margin-left: -15px;
     margin-right: 60px;
 }
-.log{
+.logo{
     max-width: 100%;
     height: auto;
 }
@@ -87,7 +87,7 @@ font-size: 16px;
     height: 30px;
     width: 330px;
     padding: 6px 12px;
-    border: 1px #a0a0a0 ;
+    border: 1px solid #a0a0a0 ;
 }
 .search-button{
     background-color: #a0a0a0;
@@ -115,7 +115,7 @@ margin-left: auto;
 text-align: right;
 padding: 15px;
 color: #364147;
-font-size: 14px;
+font-size: 18px;
 }
 .account a {
     font-size: 14px;
