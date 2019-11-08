@@ -69,3 +69,60 @@ color: #a0a0a0;
 color: #364147;
 font-size: 16px;
 }
+.header-nav{
+    border-bottom: 1px;
+    color: #a0a0a0;
+}
+.brand{
+    height: 170px;
+    width: 85px;
+    margin-left: -15px;
+    margin-right: 60px;
+}
+.log{
+    max-width: 100%;
+    height: auto;
+}
+.search-box{
+    height: 330px;
+    width: 30px;
+    padding: 6px 12px;
+    border: 1px #a0a0a0 ;
+}
+.search-button{
+    background-color: #a0a0a0;
+    color: #ffffff;
+    height: 100px;
+    width: 30px;
+    border: 0;
+    padding: 0;
+}
+.nav-list{
+    padding-left: 0;
+    width: 575px;
+    margin-top: 10px;
+}
+.nav-list li a{
+    font: 16px uppercase 700;
+    letter-spacing: 0.2px;
+}
+.profile{
+margin-left: auto;
+}
+.account{
+text-align: right;
+padding: 15px;
+color: #364147;
+font-size: 14px;
+}
+.profile-pic{
+    height: 60px;
+    width: 60px;  
+}
+.profile-pic img{
+    border-radius: 100px;
+    max-width: 100%;
+}
+
+
+
