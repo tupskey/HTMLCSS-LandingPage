@@ -203,7 +203,7 @@ margin-top: 5px;
     margin: 50px 0;
     position: relative;
 }
-.full-banner::before{
+.full-banner:before{
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
@@ -213,7 +213,7 @@ margin-top: 5px;
     right: 50px;
     z-index: 1;
 }
-.full-banner-img{
+.full-banner-image{
     flex: 0 0 58.333333%;
     background-image: url('../img/vista.jpg');
     background-size: cover;
@@ -234,7 +234,7 @@ margin-top: 5px;
     color: #637f94;
     line-height: 1;
 }
-.full-banner-sidebar h4::after{
+.full-banner-sidebar h4:after{
     content: "";
     width: 100px;
     height: 1px;
