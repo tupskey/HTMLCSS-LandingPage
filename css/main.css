@@ -7,133 +7,130 @@ ul { padding: 0; margin: 0; list-style: none; }
 nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
-.container{
-    margin: 0 auto 0 auto;
+
+.container {
+    margin: 0 auto;
     max-width: 1170px;
 }
-
-section{
+section {
     display: flex;
 }
-
-.flex{
+.flex {
     display: flex;
 }
-.flex-column{
+.flex-column {
     flex-direction: column;
 }
-.flex-one{
+.flex-one {
     flex: 1;
 }
-.align-center{
+.align-center {
     align-items: center;
 }
-.center{
+.center {
     justify-content: center;
 }
-.space-between{
+.space-between {
     justify-content: space-between;
 }
-.btn{
+.btn {
     cursor: pointer;
     border: 0;
     padding: 6px 12px;
     border-radius: 3px;
     line-height: 1.4;
 }
-
-.btn-default{
-    color: white;
+.btn-default {
+    color: #ffffff;
     background-color: #faa541;
 }
 .btn-primary{
-    color: white;
+    color: #ffffff;
     background-color: #364147;
 }
-.form-control{
+.form-control {
     display: block;
-    padding: 6px  12px;
+    padding: 6px 12px;
     border: 1px solid #a0a0a0;
     color: #8598a2;
     line-height: 1.4;
 }
-.text-light{
-font-size: 30px;
-color: #a0a0a0;
+.text-light {
+    font-size: 30px;
+    color: #a0a0a0;
 }
-.text-secondary{
+.text-secondary {
     font-size: 30px;
     color: #faa541;
 }
-.text-primary{
-color: #364147;
-font-size: 16px;
+.text-primary {
+    font-size: 16px;
+    color: #364147;
 }
-.header-nav{
-    border-bottom: 1px;
-    color: #a0a0a0;
+.header-nav {
+    border-bottom: 1px #a0a0a0;
 }
-.brand{
-    height: 85px;
-    width: 170px;
+.brand {
     margin-left: -15px;
     margin-right: 60px;
+    width: 170px;
+    height: 85px;
 }
-.logo{
+.logo {
     max-width: 100%;
     height: auto;
 }
-.search-box{
-    height: 30px;
-    width: 330px;
+.search-box {
     padding: 6px 12px;
-    border: 1px solid #a0a0a0 ;
+    border: 1px solid #a0a0a0;
+    width: 330px;
+    height: 30px;
 }
-.search-button{
+.search-button {
     background-color: #a0a0a0;
     color: #ffffff;
-    height: 30px;
-    width: 100px;
     border: 0;
     padding: 0;
+    width: 100px;
+    height: 30px;
 }
-.nav-list{
+.nav-list {
     padding-left: 0;
     width: 575px;
     margin-top: 10px;
 }
-.nav-list li a{
+.nav-list li a {
     font-size: 16px;
-    text-transform:  uppercase;
+    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.2px;
 }
-.profile{
-margin-left: auto;
+.profile {
+    margin-left: auto;
 }
-.account{
-text-align: right;
-padding: 15px;
-color: #364147;
-font-size: 18px;
+.account {
+    text-align: right;
+    padding: 15px;
+    color: #364147;
+    font-size: 18px;
 }
 .account a {
     font-size: 14px;
 }
-.profile-pic{
+.profile-pic {
+    width: 60px;
     height: 60px;
-    width: 60px;  
 }
-.profile-pic img{
+.profile-pic img {
     border-radius: 100px;
     max-width: 100%;
 }
-.hero{
-background-image: url('../img/hero.jpg');
-height: 400px;
-background-size: cover;
-background-position: center center;
-text-transform: uppercase;
+.hero {
+    background-image: url('../img/hero.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    text-transform: uppercase;
 }
 .hero h1 {
     position: relative;
@@ -141,6 +138,7 @@ text-transform: uppercase;
 }
 .hero h2 {
     color: #faa541;
+
 }
 .hero h1, .hero h2 {
     font-size: 63px;
@@ -151,76 +149,76 @@ text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
-    margin: 0 0 10px ;
+    margin: 0 0 10px;
 }
 .banner {
     margin: 55px 15px;
     width: 100%;
-    border-top: 1px solid #a0a0a0;
     border-bottom: 1px solid #a0a0a0;
+    border-top: 1px solid #a0a0a0;
     padding: 25px 0;
 }
-.banner img{
+.banner img {
     width: 250px;
 }
-.banner-text{
+.banner-text {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
     text-align: center;
 }
-  .banner-text > div:last-child{
-font-size: 16px;
-font-weight: 400;
-margin-top: 5px;
+.banner-text > div:last-child {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
 }
-.category{
+.category {
     flex: 0 0 25%;
     padding: 0 15px;
 }
-.category img{
+.category img {
     width: 100%;
 }
-.category-text{
-    color:#364147;
+.category-text {
+    color: #364147;
     padding: 30px 0;
     text-transform: uppercase;
     text-align: center;
 }
-.category-text > div{
+.category-text > div {
     font-size: 16px;
     font-weight: 200;
     color: #faa541;
 }
- .category-text h3{
+.category-text h3 {
     font-size: 30px;
     font-weight: 700;
     line-height: 1;
 }
-.full-banner{
+.full-banner {
     padding: 0 15px;
     margin: 50px 0;
     position: relative;
 }
-.full-banner:before{
+.full-banner:before {
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
     top: 30px;
     bottom: 30px;
-    left:50px;
+    left: 50px;
     right: 50px;
     z-index: 1;
 }
-.full-banner-image{
+.full-banner-image {
     flex: 0 0 58.333333%;
     background-image: url('../img/vista.jpg');
     background-size: cover;
     background-position: top center;
     min-height: 400px;
 }
-.full-banner-sidebar{
+.full-banner-sidebar {
     flex: 0 0 41.666667%;
     background-color: #364147;
     text-transform: uppercase;
@@ -234,31 +232,31 @@ margin-top: 5px;
     color: #637f94;
     line-height: 1;
 }
-.full-banner-sidebar h4:after{
+.full-banner-sidebar h4:after {
     content: "";
     width: 100px;
     height: 1px;
     background-color: #faa541;
     margin: 20px auto;
-    display: block;
+    display : block;
 }
-.full-banner-sidebar > div:nth-of-type(1){
+.full-banner-sidebar > div:nth-of-type(1) {
     font-size: 60px;
     font-weight: 700;
     line-height: 1;
 }
-.full-banner-sidebar > div:nth-of-type(2){
+.full-banner-sidebar > div:nth-of-type(2) {
     font-size: 25px;
     font-weight: 200;
     letter-spacing: 3px;
 }
-.full-banner-sidebar .btn.btn-default{
+.full-banner-sidebar .btn.btn-default {
     margin-top: 50px;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
 }
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -266,7 +264,7 @@ footer{
     min-height: 330px;
     background-color: black;
 }
-footer:after{
+footer:after {
     content: "";
     background-color: #a0a0a0;
     width: 75%;
@@ -277,11 +275,11 @@ footer:after{
     right: 0;
     z-index: -1;
 }
-.lists{
+.lists {
     flex: 0 0 75%;
     padding: 40px 15px;
 }
-.link-header{
+.link-header {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
@@ -293,80 +291,76 @@ footer a {
     font-size: 12px;
     padding: 0 0 4px;
 }
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
 }
-.social ul li{
+.social ul li {
     display: inline-block;
-
 }
 .social ul li a {
     display: block;
     width: 23px;
     height: 23px;
     background-size: 23px 23px;
-    background-position: center; 
+    background-position: center;
 }
-.twitter{
+.twitter {
     background-image: url('../img/twitter.svg');
 }
-.facebook{
+.facebook {
     background-image: url('../img/facebook.svg');
 }
-.instagram{
+.instagram {
     background-image: url('../img/instagram.svg');
 }
-.pinterest{
+.pinterest {
     background-image: url('../img/pinterest.svg');
 }
-.newsletter .link-header{
+.newsletter .link-header {
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 5px;
 }
-.newsletter .link-subheader{
+.newsletter .link-subheader {
     font-style: italic;
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 15px;
 }
-.newsletter input{
+.newsletter input {
     border: 1px solid #364147;
     width: 200px;
     margin-bottom: 10px;
 }
-.newsletter button{
+.newsletter button {
     width: 150px;
     min-width: auto;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.ps{
+.ps {
     flex: 0 0 25%;
     padding: 40px 0;
     color: #e5e5e5;
     font-size: 16px;
 }
-.ps img { 
+.ps img {
     max-width: 230px;
 }
-.demo { padding: 0 30px; }
-.demo:before{
+.demo {
+    padding: 0 30px;
+}
+.demo:before {
     content: "";
     display: block;
     width: 100%;
     height: 1px;
     margin: 30px 0;
-    background: linear-gradient(to right , #f05a28 0, #e80a89 100%);
+    background: linear-gradient(to right,#f05a28 0,#e80a89 100%);
 }
-.copyright{
+.copyright {
     flex: 0 0 75%;
     padding: 10px 0;
     font-size: 12px;
     text-align: center;
 }
-
-
-
-
-
